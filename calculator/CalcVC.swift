@@ -8,11 +8,17 @@
 import UIKit
 
 class CalcVC: UIViewController {
+    
+    //MARK: UI components
 
-    //MARK: Lifecycle 
+    //MARK: Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
+    //MARK: UI setup
+    private func setupUI() {
+        
+    }
 
 }
