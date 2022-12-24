@@ -16,6 +16,8 @@
 		BC0D573B29537CEC00C7784B /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D573A29537CEC00C7784B /* ButtonCell.swift */; };
 		BC0D573D29537D3F00C7784B /* CalcHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D573C29537D3F00C7784B /* CalcHeaderCell.swift */; };
 		BC0D573F29537D9700C7784B /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D573E29537D9700C7784B /* CalculatorButton.swift */; };
+		BC0D574129566C4000C7784B /* CalculatorOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D574029566C4000C7784B /* CalculatorOperation.swift */; };
+		BC0D574329566CEA00C7784B /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D574229566CEA00C7784B /* extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		BC0D573A29537CEC00C7784B /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
 		BC0D573C29537D3F00C7784B /* CalcHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcHeaderCell.swift; sourceTree = "<group>"; };
 		BC0D573E29537D9700C7784B /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
+		BC0D574029566C4000C7784B /* CalculatorOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorOperation.swift; sourceTree = "<group>"; };
+		BC0D574229566CEA00C7784B /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 				BC0D5727295284FB00C7784B /* Assets.xcassets */,
 				BC0D5729295284FB00C7784B /* LaunchScreen.storyboard */,
 				BC0D572C295284FB00C7784B /* Info.plist */,
+				BC0D574229566CEA00C7784B /* extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				BC0D573E29537D9700C7784B /* CalculatorButton.swift */,
+				BC0D574029566C4000C7784B /* CalculatorOperation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,8 +181,10 @@
 				BC0D573929537CBF00C7784B /* CalcVM.swift in Sources */,
 				BC0D5721295284F900C7784B /* SceneDelegate.swift in Sources */,
 				BC0D573D29537D3F00C7784B /* CalcHeaderCell.swift in Sources */,
+				BC0D574329566CEA00C7784B /* extensions.swift in Sources */,
 				BC0D573B29537CEC00C7784B /* ButtonCell.swift in Sources */,
 				BC0D5734295285CC00C7784B /* CalcVC.swift in Sources */,
+				BC0D574129566C4000C7784B /* CalculatorOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
