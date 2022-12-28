@@ -12,7 +12,7 @@ class ButtonCell: UICollectionViewCell {
     static let identifier = "ButtonCell"
     
     //MARK: Variables
-    private(set) var calculatorButton: CalculatorButton?
+    private(set) var calculatorButton: CalculatorButton!
     
     //MARK: UI Components
     private let titleLabel: UILabel = {
